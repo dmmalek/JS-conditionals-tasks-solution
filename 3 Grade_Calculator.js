@@ -11,3 +11,20 @@ Create a simple JavaScript program that takes a student's score as input and ret
     F: 0-59
 
 ***/
+
+let getNumber = 75;
+if (getNumber >= 90 && getNumber <= 100) {
+    console.log("You Got A+ ")
+}
+else if (getNumber >= 80 && getNumber <= 89) {
+    console.log("You Got B ")
+}
+else if (getNumber >= 70 && getNumber <= 79) {
+    console.log("You Got C ")
+}
+else if (getNumber >= 60 && getNumber <= 69) {
+    console.log("You Got D ")
+}
+else {
+    console.log("You Got F")
+}
